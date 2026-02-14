@@ -1,5 +1,7 @@
-<center><h1>🪼 Aquavium.nvim 🦈</h1></center>
-<center><sub>Aquarium color scheme on Neovim</sub></center>
+<div align="center">
+    <h1>🪼 Aquavium.nvim 🦈</h1>
+    <sub>Aquarium color scheme on Neovim</sub>
+</div>
 
 ## ✨ 概要 - Overview -
 <sub>"Aquavium" is designed for use with a transparent terminal background</sub>  
