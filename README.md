@@ -21,10 +21,10 @@
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) (Optional)
 
 ## 🧩 対応しているプラグイン - supported plugins -
-- lualine
-- bufferline
-- nvim-treesitter-context
-- Markview
+- [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+- [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
+- [nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context)
+- [Markview.nvim](https://github.com/OXY2DEV/markview.nvim)
 
 ## 🔧 インストール - Install -
 ### In terminal
