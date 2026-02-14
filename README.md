@@ -27,7 +27,7 @@
 - Markview
 
 ## 🔧 インストール - Install -
-### On terminal
+### In terminal
 <sub>Please set opacity</sub>  
 透明度を設定してください。  
   
@@ -43,7 +43,7 @@ config.window_background_opacity = 0.7
 --config.window_background_opacity = opacity_state
 --config.window_decorations = 'INTEGRATED_BUTTONS'
 ```
-### On Neovim
+### In Neovim
 #### Lazy.nvim
 ```lua
     {
