@@ -24,6 +24,7 @@
 - lualine
 - bufferline
 - nvim-treesitter-context
+- Markview
 
 ## 🔧 インストール - Install -
 ### On terminal
