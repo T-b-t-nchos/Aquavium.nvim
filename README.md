@@ -18,7 +18,7 @@
 
 ## 💼 依存関係 - dependents -
 - [Neovim](https://github.com/neovim/neovim) 0.11+
-- [treesitter.nvim](https://github.com/nvim-treesitter/nvim-treesitter) (Optional)
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) (Optional)
 
 ## 🧩 対応しているプラグイン - supported plugins -
 - lualine
