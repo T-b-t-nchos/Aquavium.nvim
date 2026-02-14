@@ -15,7 +15,7 @@ function M.apply(c, opts)
         BufferLineCloseButtonVisible = { bg = c.bg1 },
 
         BufferLineIndicatorSelected = { fg = c.cyan, bg = c.bg1, bold = opts.bold },
-        BufferLineBufferSelected = { fg = c.fg, bg = c.bg1 },
+        BufferLineBufferSelected = { fg = c.fg, bg = c.bg1, bold = opts.bold },
     }
 
     utils.apply_hl(hl)
