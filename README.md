@@ -9,7 +9,7 @@
 <sub>and features an aquarium-themed color scheme</sub>    
 水族館をモチーフにしたカラーテーマです。  
 
-## 📷️ 画像 - Images -
+## 📷️ プレビュー - Preview -
 
 |   |dark|light|
 |---|---|---|
