@@ -59,7 +59,7 @@ function M.setup(user_options)
         purple =    "#9f97f5", --Ruru
         pink =      "#eeb6c7", --Kitty
         rose =      "#da9197", --Chris
-        gray =      "#5e6a82"
+        gray =      "#64718b"
     }
 
     local options = M.options
