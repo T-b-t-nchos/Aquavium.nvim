@@ -1,4 +1,5 @@
 local utils = require("Aquavium.utils")
+local highlight = require("Aquavium.highlights")
 local M = {}
 
 local default_options = {
@@ -85,56 +86,7 @@ function M.setup(user_options)
         end
     })
 
-    local hl = {
-        Normal = { fg = colors.fg, bg = colors.bg1 },
-        Comment = { fg = colors.gray, bg = colors.bg1, italic = options.italic },
-        Keyword = { fg = colors.yellow, bg = colors.bg1 },
-        String = { fg = colors.lightblue, bg = colors.bg1 },
-        Character = { link = "String"},
-        Number = { fg = colors.pink, bg = colors.bg1 },
-        Float = { link = "Number" },
-        Boolean = { fg = colors.rose, bg = colors.bg1 },
-        LineNr = { fg = colors.gray, bg = colors.bg1 },
-        Function = { fg = colors.cyan, bg = colors.bg1 },
-        EndOfBuffer = { fg = colors.blue, bg = colors.bg1 },
-        MatchParen = { fg = colors.cyan, bg = colors.bg1, bold = options.bold },
-
-        NormalFloat = { fg = colors.fg, bg = colors.bg1 },
-
-        WinBar   = { bg = colors.bg1 },
-        WinBarNC = { bg = colors.bg1 },
-        TabLine = { bg = colors.bg1 },
-        TabLineFill = { bg = colors.bg1 },
-        TabLineSel = { bg = colors.bg1 },
-        StatusLine = { fg = colors.fg, bg = colors.bg1 },
-        StatusLineNC = { bg = colors.bg1 },
-
-        ModeMsg = { fg = colors.purple, bg = colors.bg1 },
-
-        Directory = { fg = colors.lightblue, bg = colors.bg1 },
-
-        -- lazy.nvim --
-        LazyReasonRuntime = { fg = colors.blue, bg = colors.bg1 },
-        LazyReasonPlugin = { fg = colors.lightblue, bg = colors.bg1 },
-        LazyReasonEvent = { fg = colors.yellow, bg = colors.bg1 },
-        LazyReasonKeys = { fg = colors.rose, bg = colors.bg1 },
-        LazyReasonStart = { fg = colors.cyan, bg = colors.bg1 },
-        LazyReasonSource = { fg = colors.rose, bg = colors.bg1 },
-        LazyReasonFt = { fg = colors.purple, bg = colors.bg1 },
-        LazyReasonCmd = { fg = colors.pink, bg = colors.bg1 },
-        LazyReasonImport = { fg = colors.yellow, bg = colors.bg1 },
-        LazyReasonRequire = { fg = colors.yellow, bg = colors.bg1 },
-        Bold = { bold = options.bold },
-        Italic = { italic = options.italic },
-
-        -- treesitter.nvim --
-        ['@operator'] = { fg = colors.purple },
-
-        -- Telescope.nvim --
-        TelescopeBorder = { fg = colors.gray }
-    }
-
-    utils.apply_hl(hl)
+    highlight.apply(colors, options)
 
     vim.g.colors_name = "Aquavium"
 
