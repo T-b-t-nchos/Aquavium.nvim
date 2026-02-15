@@ -88,3 +88,11 @@ config.window_background_opacity = 0.7
 > This work is a fan creation and has no affiliation with the official creators.  
 > 本作品は、公式様とは一切の関わりを持たない、ファンによる作品です。  
 
+## 🙏 お願い - Request to you -
+> <sub>This is my first time developing a color scheme. So, there may be some issues.</sub>  
+> このカラースキームは、私の初めてのカラースキーム開発です。そのため、不具合などがある可能性があります。  
+> <sub>I'd love to take a look at your GitHub issue or PR if you find any issues.</sub>  
+> 不具合などを見つけた場合は、Issue/PRの作成を、ぜひお願い致します。
+
+> <sub>Also, I’d love to see any requests on GitHub issues.</sub>  
+> また、GitHub issue 上でのリクエスト等もお待ちしています。
