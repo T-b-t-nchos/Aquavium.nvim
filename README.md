@@ -32,6 +32,10 @@
 <sub>Please set opacity</sub>  
 透明度を設定してください。  
   
+> [!TIP]
+> <sub>Recommend background: #000, transparent: 70%</sub>  
+> 推奨 背景: #000, 不透明度: 70%  
+
 例(example):
 ```lua
 ---- WezTerm Nightly
