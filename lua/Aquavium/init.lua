@@ -1,4 +1,4 @@
-local utils = require("Aquavium.utils")
+--local utils = require("Aquavium.utils")
 local highlight = require("Aquavium.highlights")
 local M = {}
 
@@ -48,29 +48,10 @@ function M.setup(user_options)
         M.options = vim.tbl_deep_extend("force", M.options, user_options)
     end
 
-    local colors = {
-        bg1 =       "#000e1e",
-        bg2 =       "#000e1e",
-        fg =        "#cdd5e5",
-        red =       "#cc0047",
-        green =     "#73bf5e", --(seaweed)
-        blue =      "#004584", --Daidaisan
-        lightblue = "#4fbee3", --Suzu
-        cyan =      "#63deff", --Yadokari
-        yellow =    "#e8dfad", --Retro
-        purple =    "#9f97f5", --Ruru
-        pink =      "#eeb6c7", --Kitty
-        rose =      "#da9197", --Chris
-        gray =      "#64718b"
-    }
-
     local options = M.options
 
-    if options.transparent then
-        colors.bg1 = "NONE"
-    end
+    M.colors = require("Aquavium.colors").setup(options).colors;
 
-    M.colors = colors
     M.meta = M.options
 
     vim.api.nvim_create_autocmd({ "ModeChanged", "VimEnter" }, {
@@ -86,7 +67,7 @@ function M.setup(user_options)
         end
     })
 
-    highlight.apply(colors, options)
+    highlight.apply(M.colors, options)
 
     vim.g.colors_name = "Aquavium"
 
