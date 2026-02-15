@@ -11,7 +11,7 @@
 
 ## 📷️ プレビュー - Preview -
 
-|   |dark|light|
+|TermColor|dark-wallpaper|light-wallpaper|
 |---|---|---|
 |black|![win11,black,70per,dark](img/2-win11-black-70per-dark.png)|![win11,black,70per,light](img/2-win11-black-70per-light.png)|
 |blue|![win11,blue,70per,dark](img/2-win11-blue-70per-dark.png)|![win11,blue,70per,light](img/2-win11-blue-70per-light.png)|
