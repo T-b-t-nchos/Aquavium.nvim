@@ -1,3 +1,4 @@
+local utils = require("Aquavium.utils")
 local M = {}
 
 local default_options = {
@@ -84,7 +85,7 @@ function M.setup(user_options)
         end
     })
 
-    local highlights = {
+    local hl = {
         Normal = { fg = colors.fg, bg = colors.bg1 },
         Comment = { fg = colors.gray, bg = colors.bg1, italic = options.italic },
         Keyword = { fg = colors.yellow, bg = colors.bg1 },
@@ -133,9 +134,7 @@ function M.setup(user_options)
         TelescopeBorder = { fg = colors.gray }
     }
 
-    for group, opts in pairs(highlights) do
-        vim.api.nvim_set_hl(0, group, opts)
-    end
+    utils.apply_hl(hl)
 
     vim.g.colors_name = "Aquavium"
 
