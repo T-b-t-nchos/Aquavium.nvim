@@ -5,3 +5,8 @@
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
+
+## External Contributors
+>   [@nazozokc](https://github.com/nazozokc)  
+>  <sub>Gray color enhancements and code structure advice.</sub>  
+>  Grayカラーの改善およびコード構成のアドバイス。
