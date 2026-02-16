@@ -100,3 +100,7 @@ config.window_background_opacity = 0.7
 
 > <sub>Also, I’d love to see any requests on GitHub issues.</sub>  
 > また、GitHub issue 上でのリクエスト等もお待ちしています。
+
+## 👥 貢献者 - Contributors -
+<sub>See here:</sub>  
+こちらをご覧ください:  **[🤝Contributors.md](./Contributors.md)**
