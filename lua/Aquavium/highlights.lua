@@ -47,6 +47,13 @@ function M.apply(c, opts)
         -- treesitter.nvim --
         ['@operator'] = { fg = c.purple },
 
+        ['@keyword.conditional'] = {fg = c.orange},
+        ['@keyword.repeat'] = {fg = c.orange},
+        ['@keyword.return'] = {fg = c.orange},
+        ['@keyword.exception'] = {fg = c.orange},
+        ['@keyword.coroutine'] = {fg = c.orange},
+
+
         -- Telescope.nvim --
         TelescopeBorder = { fg = c.gray }
 
