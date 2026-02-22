@@ -45,7 +45,7 @@ function M.apply(c, opts)
         Italic = { italic = opts.italic },
 
         -- treesitter.nvim --
-        ['@operator'] = { fg = c.purple },
+        ['@operator'] = { fg = c.sky },
 
         ['@keyword.conditional'] = {fg = c.orange},
         ['@keyword.repeat'] = {fg = c.orange},
