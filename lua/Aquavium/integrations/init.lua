@@ -2,6 +2,7 @@ local M = {}
 
 local modules = {
     "bufferline",
+    "dashboard",
     "markview",
     "treesitter_context",
 }

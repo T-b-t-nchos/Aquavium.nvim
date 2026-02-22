@@ -22,6 +22,7 @@
 
 ## 🧩 対応しているプラグイン - Supported plugins -
 - [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
+- [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim/)
 - [lazy.nvim](https://github.com/folke/lazy.nvim)
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - [Markview.nvim](https://github.com/OXY2DEV/markview.nvim)
