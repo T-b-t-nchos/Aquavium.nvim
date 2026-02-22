@@ -7,7 +7,7 @@ function M.apply(c, opts)
         Comment = { fg = c.gray, bg = c.bg1, italic = opts.italic },
         Keyword = { fg = c.yellow, bg = c.bg1 },
         String = { fg = c.lightblue, bg = c.bg1 },
-        Character = { link = "String"},
+        Character = { fg = c.purple, bg = c.bg1 },
         Number = { fg = c.pink, bg = c.bg1 },
         Float = { link = "Number" },
         Boolean = { fg = c.rose, bg = c.bg1 },
