@@ -6,12 +6,12 @@ local palette = {
     green =     "#73bf5e", --(seaweed)
     blue =      "#004584", --Daidaisan
     lightblue = "#4fbee3", --Suzu
-    cyan =      "#63deff", --Yadokari
+    cyan =      "#63deff",
     yellow =    "#e8dfad", --Retro
     purple =    "#9f97f5", --Ruru
     pink =      "#eeb6c7", --Kitty
     rose =      "#da9197", --Chris
-    gray =      "#64718b"
+    gray =      "#7b92ae", --Yadokari
 }
 
 local M = {}
