@@ -13,8 +13,8 @@
 
 |TermColor|dark-wallpaper|light-wallpaper|
 |---|---|---|
-|black|![win11,black,70per,dark](img/2-win11-black-70per-dark.png)|![win11,black,70per,light](img/2-win11-black-70per-light.png)|
-|blue|![win11,blue,70per,dark](img/2-win11-blue-70per-dark.png)|![win11,blue,70per,light](img/2-win11-blue-70per-light.png)|
+|black|![win11,000000,70per,dark](img/win11-000000-70per-dark.png)|![win11,000000,70per,light](img/win11-000000-70per-light.png)|
+|blue|![win11,02083a,70per,dark](img/win11-02083a-70per-dark.png)|![win11,blue,70per,light](img/win11-02083a-70per-light.png)|
 
 ## 💼 依存関係 - Dependents -
 - [Neovim](https://github.com/neovim/neovim) 0.11+
