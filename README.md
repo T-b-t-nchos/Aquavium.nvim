@@ -86,6 +86,8 @@ config.window_background_opacity = 0.7
 
 <sub>This color theme is inspired from [The Aquarium does not dance](https://daidai7742.wixsite.com/aqua-dance).</sub>  
 本カラーテーマは[アクアリウムは踊らない](https://daidai7742.wixsite.com/aqua-dance)より、インスピレーションを受けました。  
+<sub>For more details, please see [here](./docs/TADND.md).</sub>  
+アクアリウムは踊らないについて、詳しくは[こちら](./docs/TADND.md)を御覧ください。  
 <sub>(2026/02/15) Happy 2nd Anniversary!</sub>  
 (2026/02/15) 二周年、おめでとうございます!
   
