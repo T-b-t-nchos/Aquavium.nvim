@@ -84,7 +84,7 @@ config.window_background_opacity = 0.7
 
 ## 💡 インスピレーション元 - Source of inspire -
 
-<sub>This color theme is inspired from [The Aquarium does not dance](https://daidai7742.wixsite.com/aqua-dance).</sub>  
+<sub>This color theme is inspired by [The Aquarium does not dance](https://daidai7742.wixsite.com/aqua-dance).</sub>  
 本カラーテーマは[アクアリウムは踊らない](https://daidai7742.wixsite.com/aqua-dance)より、インスピレーションを受けました。  
 <sub>For more details, please see [here](./docs/TADND.md).</sub>  
 アクアリウムは踊らないについて、詳しくは[こちら](./docs/TADND.md)を御覧ください。  
