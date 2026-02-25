@@ -26,6 +26,7 @@
 - [lazy.nvim](https://github.com/folke/lazy.nvim)
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - [Markview.nvim](https://github.com/OXY2DEV/markview.nvim)
+- [nvim-notify](https://github.com/rcarriga/nvim-notify)
 - [nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context)
 
 ## 🔧 インストール - Install -
