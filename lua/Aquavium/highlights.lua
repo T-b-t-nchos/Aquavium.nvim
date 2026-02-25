@@ -30,20 +30,6 @@ function M.apply(c, opts)
 
         Directory = { fg = c.lightblue },
 
-        -- lazy.nvim --
-        LazyReasonRuntime = { fg = c.blue },
-        LazyReasonPlugin = { fg = c.lightblue },
-        LazyReasonEvent = { fg = c.yellow },
-        LazyReasonKeys = { fg = c.rose },
-        LazyReasonStart = { fg = c.cyan },
-        LazyReasonSource = { fg = c.rose },
-        LazyReasonFt = { fg = c.purple },
-        LazyReasonCmd = { fg = c.pink },
-        LazyReasonImport = { fg = c.yellow },
-        LazyReasonRequire = { fg = c.yellow },
-        Bold = { bold = opts.bold },
-        Italic = { italic = opts.italic },
-
         -- treesitter.nvim --
         ['@operator'] = { fg = c.sky },
 
@@ -52,11 +38,6 @@ function M.apply(c, opts)
         ['@keyword.return'] = {fg = c.orange},
         ['@keyword.exception'] = {fg = c.orange},
         ['@keyword.coroutine'] = {fg = c.orange},
-
-
-        -- Telescope.nvim --
-        TelescopeBorder = { fg = c.gray }
-
     }
 
     utils.apply_hl(hl)
