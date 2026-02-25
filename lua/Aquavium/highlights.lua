@@ -30,6 +30,10 @@ function M.apply(c, opts)
 
         Directory = { fg = c.lightblue },
 
+        DiagnosticVirtualTextError = { fg = c.rose },
+        DiagnosticVirtualTextWarn = { fg = c.yellow },
+        DiagnosticVirtualTextInfo = { fg = c.cyan },
+
         -- treesitter.nvim --
         ['@operator'] = { fg = c.sky },
 
