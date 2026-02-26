@@ -48,6 +48,11 @@ function M.setup(user_options)
         M.options = vim.tbl_deep_extend("force", M.options, user_options)
     end
 
+    if vim.g.colors_name then
+        vim.cmd("highlight clear")
+    end
+    vim.cmd("syntax reset")
+
     local options = M.options
 
     M.colors = require("Aquavium.colors").setup(options).colors;
