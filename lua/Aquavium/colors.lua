@@ -10,9 +10,9 @@ local palette = {
     sky =       "#699ee0", --Holo       --Shinitagari-no-Idol
     orange =    "#fdba8a", --Hikaru     --Shinitagari-no-Idol
     yellow =    "#e8dfad", --Retro
-    purple =    "#938af8", --Ruru
+    purple =    "#938af8", --Lulu
     pink =      "#eeb6c7", --Kitty
-    rose =      "#da9197", --Chris
+    rose =      "#da9197", --Chrissy
     gray =      "#7b92ae", --Yadokari
 }
 
