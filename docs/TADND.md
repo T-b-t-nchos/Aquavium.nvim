@@ -12,18 +12,18 @@
 
 |color|inspired|hex code|sample|some info|
 |:---:|---|---|:---:|---|
-|cyan|スーズ (Suze)|`#4fbee3`|![Preview](https://placehold.co/40x40/63deff/63deff.png)||
-|yellow|レトロ (Retro)|`#e8dfad`|![Preview](https://placehold.co/40x40/e8dfad/e8dfad.png)||
-|purple|ルル (Lulu)|`#938af8`|![Preview](https://placehold.co/40x40/938af8/938af8.png)||
-|pink|キティ (Kitty)|`#eeb6c7`|![Preview](https://placehold.co/40x40/eeb6c7/eeb6c7.png)||
-|rose|クリス (Chrissy)|`#da9197`|![Preview](https://placehold.co/40x40/da9197/da9197.png)||
-|gray|ヤドカリ (Harmes)|`#7b92ae`|![Preview](https://placehold.co/40x40/7b92ae/7b92ae.png)||
-|lightblue|■■■の石 (■■■ bijou)|`#63deff`|![Preview](https://placehold.co/40x40/63deff/63deff.png)||
+|cyan|スーズ (Suze)|`#4fbee3`|![Preview](https://placehold.co/40x10/63deff/63deff.png)||
+|yellow|レトロ (Retro)|`#e8dfad`|![Preview](https://placehold.co/40x10/e8dfad/e8dfad.png)||
+|purple|ルル (Lulu)|`#938af8`|![Preview](https://placehold.co/40x10/938af8/938af8.png)||
+|pink|キティ (Kitty)|`#eeb6c7`|![Preview](https://placehold.co/40x10/eeb6c7/eeb6c7.png)||
+|rose|クリス (Chrissy)|`#da9197`|![Preview](https://placehold.co/40x10/da9197/da9197.png)||
+|gray|ヤドカリ (Harmes)|`#7b92ae`|![Preview](https://placehold.co/40x10/7b92ae/7b92ae.png)||
+|lightblue|■■■の石 (■■■ bijou)|`#63deff`|![Preview](https://placehold.co/40x10/63deff/63deff.png)||
 ||||||
-|blue|橙々さん (Daidai-san)|`#004584`|![Preview](https://placehold.co/15x15/004584/004584.png)|アクアリウムは踊らないの作者様(Author of TADND)|
+|blue|橙々さん (Daidai-san)|`#004584`|![Preview](https://placehold.co/40x10/004584/004584.png)|アクアリウムは踊らないの作者様(Author of TADND)|
 ||||||
-|orange|ヒカル (Hikaru)|`#fdba8a`|![Preview](https://placehold.co/40x40/fdba8a/fdba8a.png)|「死にたがりのアイドル」より。|
-|sky|ホロ (Holo)|`#699ee0`|![Preview](https://placehold.co/40x40/699ee0/699ee0.png)|「死にたがりのアイドル」より。|
+|orange|ヒカル (Hikaru)|`#fdba8a`|![Preview](https://placehold.co/40x10/fdba8a/fdba8a.png)|「死にたがりのアイドル」より。|
+|sky|ホロ (Holo)|`#699ee0`|![Preview](https://placehold.co/40x10/699ee0/699ee0.png)|「死にたがりのアイドル」より。|
 
 
 ### 📎 リンク - Links -
