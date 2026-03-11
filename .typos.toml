@@ -13,9 +13,9 @@ check-filename = true
 check-file = true
 unicode = true
 locale = "en"
-extend-ignore-re = []
-extend-ignore-identifiers-re = []
-extend-ignore-words-re = []
+# extend-ignore-re = []
+# extend-ignore-identifiers-re = []
+# extend-ignore-words-re = []
 
 [default.extend-words]
 # <typo> = "<correction>"
@@ -23,6 +23,6 @@ extend-ignore-words-re = []
 [default.extend-identifiers]
 # <typo> = "<correction>"
 
-[type.NAME]
-extend-glob = []
+# [type.NAME]
+# extend-glob = []
 # ... see `default`
