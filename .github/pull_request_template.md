@@ -1,3 +1,6 @@
+<!-- 日本語/英語どちらでも構いません。 -->
+<!-- Please use either English or Japanese. -->
+
 ## 概要 - Summary
 <!-- 変更についての概要を記載してください -->
 <!-- Short description of the change -->
