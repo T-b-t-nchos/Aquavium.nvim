@@ -1,11 +1,11 @@
 [files]
 extend-exclude = []
-ignore-hidden = true
-ignore-files = true
-ignore-dot = true
+# ignore-hidden = true
+# ignore-files = true
+# ignore-dot = true
 ignore-vcs = true
-ignore-global = true
-ignore-parent = true
+# ignore-global = true
+# ignore-parent = true
 
 [default]
 binary = false
