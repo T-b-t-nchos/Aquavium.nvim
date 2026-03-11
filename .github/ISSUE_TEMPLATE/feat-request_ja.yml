@@ -5,21 +5,21 @@ labels: ["enhancement"]
 
 body:
 
-    - type: textarea
-      id: content
-      attributes:
-          label: 内容
+  - type: textarea
+    id: content
+    attributes:
+      label: 内容
       validations:
-          required: true
+        required: true
 
-    - type: textarea
-      id: reason
-      attributes:
-          label: 理由 / 使うケース
+  - type: textarea
+    id: reason
+    attributes:
+      label: 理由 / 使うケース
       validations:
-          required: true
+        required: true
 
-    - type: textarea
-      id: notes
-      attributes:
-          label: その他備考 (optional)
+  - type: textarea
+    id: notes
+    attributes:
+      label: その他備考 (optional)
