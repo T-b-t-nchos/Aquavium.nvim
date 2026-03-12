@@ -9,8 +9,8 @@ function M.apply(c)
         NotifyERRORIcon = { link = "NotifyERRORBody" },
 
         NotifyWARNBody = { fg = c.yellow },
-        NotifyWARNBorder = { link = "NotifyWarnBody" },
-        NotifyWARNTitle = { link = "NotifyWarnBody" },
+        NotifyWARNBorder = { link = "NotifyWARNBody" },
+        NotifyWARNTitle = { link = "NotifyWARNBody" },
         NotifyWARNIcon = { link = "NotifyWARNBody" },
 
         NotifyINFOBody = { fg = c.lightblue },
