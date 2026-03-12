@@ -7,8 +7,7 @@
 「Aquavium.nvim」内のカラーは、アクアリウムは踊らないのキャラクターをモチーフにしています。  
 
 ### 🎨 カラーについて - Colors -
-<sub>Belows are the colors inspired by the characters in "Aquavium.nvim".</sub>  
-以下は、アクアリウムは踊らないよりインスピレーションを受けたカラーです。 
+<sub>Below are the colors inspired by the characters in "Aquavium.nvim".</sub>  以下は、アクアリウムは踊らないよりインスピレーションを受けたカラーです。 
 
 |color|inspired|hex code|sample|some info|
 |:---:|---|---|:---:|---|
