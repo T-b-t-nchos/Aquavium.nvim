@@ -11,8 +11,8 @@ body:
       label: Version
       description: Commit ID (hash). If unknown, write "latest as of YYYY-MM-DD"
       placeholder: "Example: a1b2c3d"
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: input
     id: area
