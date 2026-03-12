@@ -11,13 +11,13 @@
 
 |color|inspired|hex code|sample|some info|
 |:---:|---|---|:---:|---|
-|cyan|スーズ (Suze)|`#4fbee3`|![Preview](https://placehold.co/40x15/63deff/63deff.png)||
+|light blue|スーズ (Suze)|`#4fbee3`|![Preview](https://placehold.co/40x15/4fbee3/4fbee3.png)||
 |yellow|レトロ (Retro)|`#e8dfad`|![Preview](https://placehold.co/40x15/e8dfad/e8dfad.png)||
 |purple|ルル (Lulu)|`#938af8`|![Preview](https://placehold.co/40x15/938af8/938af8.png)||
 |pink|キティ (Kitty)|`#eeb6c7`|![Preview](https://placehold.co/40x15/eeb6c7/eeb6c7.png)||
 |rose|クリス (Chrissy)|`#da9197`|![Preview](https://placehold.co/40x15/da9197/da9197.png)||
 |gray|ヤドカリ (Harmes)|`#7b92ae`|![Preview](https://placehold.co/40x15/7b92ae/7b92ae.png)||
-|lightblue|■■■の石 (■■■ bijou)|`#63deff`|![Preview](https://placehold.co/40x15/63deff/63deff.png)||
+|cyan|■■■の石 (■■■ bijou)|`#63deff`|![Preview](https://placehold.co/40x15/63deff/63deff.png)||
 ||||||
 |blue|橙々さん (Daidai-san)|`#004584`|![Preview](https://placehold.co/40x15/004584/004584.png)|アクアリウムは踊らないの作者様(Author of TADND)|
 ||||||
