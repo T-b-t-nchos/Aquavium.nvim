@@ -30,7 +30,7 @@
 Official X account of The Aquarium does not dance](https://x.com/aqua_dance_)
 - [橙々さんのXアカウント / X account of Daidai-san](https://x.com/daidai742)
 - [アクアリウムは踊らない公式HP /  
-Official homepage of The Aquavium does not dance](https://daidai7742.wixsite.com/aqua-dance)
+Official homepage of The Aquarium does not dance](https://daidai7742.wixsite.com/aqua-dance)
   
 - [その他各種リンクはこちら! /  
 Other links is here!](https://daidai7742.wixsite.com/aqua-dance/link)
