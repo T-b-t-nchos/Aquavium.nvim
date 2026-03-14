@@ -54,7 +54,7 @@ config.window_background_opacity = 0.7
 #### Lazy.nvim
 ```lua
 {
-    "https://github.com/T-b-t-nchos/Aquavium.nvim",
+    "T-b-t-nchos/Aquavium.nvim",
     lazy = false,
     priority = 1000,
     config = function()
