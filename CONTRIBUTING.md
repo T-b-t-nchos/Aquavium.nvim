@@ -143,8 +143,7 @@ fix: wrong variable in conditional check
 <sub>Please set branch names in this repository as follows.</sub><br>
 本リポジトリでのブランチ名については次のように設定してください。<br>
 
-<sub>`<type>/<subject>-Issue#<Issue Number>`</sub><br>
-`<type>/<subject>-Issue#<Issue Number>`<br>
+`<type>/<subject>-#<Issue Number>`<br>
 
 <sub>Details are as follows.</sub><br>
 それぞれについては以下のとおりです。<br>
