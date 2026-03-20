@@ -23,7 +23,7 @@ flowchart TD
 ## Issue/Discussions
 
 <sub>We accept feature proposals, bug reports, and feature ideas in Issues.</sub><br>
-Issueでは機能案や、バグなどの報告や機能案を受け付けています。<br>
+Issueでは機能案や、バグなどの報告などを受け付けています。<br>
 
 <sub>If you can implement/resolve the feature/bug yourself, please indicate it.</sub><br>
 機能案/バグを、ご自身で実装/解決して頂ける場合には、明記していただけると幸いです。<br>
