@@ -36,6 +36,11 @@ function M.apply(c, opts)
         DiagnosticVirtualTextWarn = { fg = c.yellow },
         DiagnosticVirtualTextInfo = { fg = c.cyan },
 
+        vimCommand = { fg = c.yellow },
+        vimBang = { fg = c.lightblue },
+        vimOper = { fg = c.purple },
+        vimUsrCmd = { fg = c.cyan },
+
         -- treesitter.nvim --
         ['@operator'] = { fg = c.sky },
 
