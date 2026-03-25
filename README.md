@@ -3,7 +3,7 @@
     <sub>Aquarium color scheme on Neovim</sub>
 </div>
 
-<br><br>
+<br>
 
 <div align="center">
     <img src="https://github.com/user-attachments/assets/ee89335e-a442-4a85-bfc0-fc77d9616816" alt="Preview" width="700"/>
