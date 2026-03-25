@@ -6,6 +6,8 @@ function M.apply(c, opts)
         Normal = { fg = c.fg, bg = c.bg1 },
         Comment = { fg = c.gray, italic = opts.italic },
         Keyword = { fg = c.yellow },
+        Statement = { fg = c.orange },
+        Operator = { fg = c.sky },
         String = { fg = c.lightblue },
         Character = { fg = c.purple },
         Number = { fg = c.pink },
