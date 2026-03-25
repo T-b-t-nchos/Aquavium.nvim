@@ -6,7 +6,7 @@
 <br><br>
 
 <div align="center">
-    <img src="./img/SocialPreview.png" alt="Preview" width="700"/>
+    <img src="https://github.com/user-attachments/assets/ee89335e-a442-4a85-bfc0-fc77d9616816" alt="Preview" width="700"/>
 </div>
 
 ## ✨ 概要 - Overview -
