@@ -193,5 +193,5 @@ fix/cant-skip-config-when-edit-target
 
 <a href="https://github.com/T-b-t-nchos/dotfiles">https://github.com/T-b-t-nchos/dotfiles</a><br>
 
-<sub>Clone the repository to `~\source\repos\Aquavium.nvim` when developing.</sub><br>
-開発の際は`~\source\repos\Aquavium.nvim`にクローンしてください。<br>
+<sub>Clone the repository to `~\source\repos\Aquavium.nvim` when developing with use this dotfile.</sub><br>
+上記dotfileを用いた開発の際は`~\source\repos\Aquavium.nvim`にクローンしてください。<br>
