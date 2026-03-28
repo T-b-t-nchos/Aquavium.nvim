@@ -16,7 +16,8 @@ function M.apply(c, opts)
         LineNr = { fg = c.gray },
         Function = { fg = c.cyan },
         EndOfBuffer = { fg = c.blue },
-        MatchParen = { fg = c.cyan, bold = opts.bold },
+
+        MatchParen = { bold = opts.bold },
 
         NormalFloat = { fg = c.fg },
 
