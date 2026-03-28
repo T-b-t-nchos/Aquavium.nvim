@@ -103,7 +103,7 @@ config.window_background_opacity = 0.7
 > 本作品は、公式様とは一切の関わりを持たない、ファンによる作品です。 
 
 > [!NOTE]
-> This color scheme complies with [The Aquarium does not dance, Secondary Creation Guideline](https://daidai7742.wixsite.com/aqua-dance/guideline).
+> This color scheme complies with [The Aquarium does not dance, Secondary Creation Guideline](https://daidai7742.wixsite.com/aqua-dance/guideline).  
 > 本カラースキームは[アクアリウムは踊らない二次創作ガイドライン](https://daidai7742.wixsite.com/aqua-dance/guideline)に準拠しています。
 
 ## 🙏 お願い - Request to you -
