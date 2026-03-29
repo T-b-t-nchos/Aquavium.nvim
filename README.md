@@ -9,6 +9,73 @@
     <img src="https://github.com/user-attachments/assets/ee89335e-a442-4a85-bfc0-fc77d9616816" alt="Preview" width="700"/>
 </div>
 
+<hr>
+
+<div align="center">
+    <!-- <picture> -->
+    <!--     <source media="(prefers-color-scheme: dark)" srcset=""> -->
+    <!--     <source media="(prefers-color-scheme: light)" srcset=""> -->
+    <!--     <img alt="" src=""> -->
+    <!-- </picture> -->
+    <a href="https://neovim.io/">
+        <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/%20Neovim-%2357a143?style=flat&logo=Neovim&logoColor=%2357a143&label=Built%20for&labelColor=%23444444&link=https%3A%2F%2Fneovim.io%2F">
+            <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/%20Neovim-%2357a143?style=flat&logo=Neovim&logoColor=%2357a143&label=Built%20for&labelColor=%23ffffff&link=https%3A%2F%2Fneovim.io%2F">
+            <img alt="Built for Neovim" src="https://img.shields.io/badge/%20Neovim-%2357a143?style=flat&logo=Neovim&logoColor=%2357a143&label=Built%20for&labelColor=%23444444&link=https%3A%2F%2Fneovim.io%2F">
+        </picture>
+    </a>
+    <a href="https://neovim.io/doc/install/">
+        <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/%200.11+-%233791d4?style=flat&logo=Neovim&logoColor=%233791d4&label=Required&labelColor=%23444444&link=https%3A%2F%2Fneovim.io%2F">
+            <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/%200.11+-%233791d4?style=flat&logo=Neovim&logoColor=%233791d4&label=Required&labelColor=%23ffffff&link=https%3A%2F%2Fneovim.io%2F">
+            <img alt="Required Neovim 0.11+" src="https://img.shields.io/badge/%200.11+-%233791d4?style=flat&logo=Neovim&logoColor=%233791d4&label=Required&labelColor=%23444444&link=https%3A%2F%2Fneovim.io%2F">
+        </picture>
+    </a>
+    <br><br>
+    <a href="./LICENSE">
+        <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/%20MIT%20License%20-%23004584?style=flat&label=License&labelColor=%23444444&link=https%3A%2F%2Fneovim.io%2F">
+            <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/%20MIT%20License%20-%23004584?style=flat&label=License&labelColor=%23ffffff&link=https%3A%2F%2Fneovim.io%2F">
+            <img alt="License" src="https://img.shields.io/badge/%20MIT%20License%20-%23004584?style=flat&label=License&labelColor=%23444444&link=https%3A%2F%2Fneovim.io%2F">
+        </picture>
+    </a>
+    <a href="./NOTICE">
+        <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/NOTICE%20-%2363deff?style=flat&label=Notice&labelColor=%23444444&link=https%3A%2F%2Fneovim.io%2F">
+            <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/NOTICE%20Notice%20-%2363deff?style=flat&label=Notice&labelColor=%23ffffff&link=https%3A%2F%2Fneovim.io%2F">
+            <img alt="Notice" src="https://img.shields.io/badge/NOTICE%20Notice%20-%2363deff?style=flat&label=Notice&labelColor=%23444444&link=https%3A%2F%2Fneovim.io%2F">
+        </picture>
+    </a>
+    <br><br>
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/last-commit/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%234fbee3&labelColor=%23444444">
+        <sourc media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/last-commit/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%234fbee3&labelColor=%23ffffff">
+        <img alt="Last commit" src="https://img.shields.io/github/last-commit/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%234fbee3&labelColor=%23444444">
+    </picture>
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/commit-activity/t/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%23e8dfad&labelColor=%23444444">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/commit-activity/t/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%23e8dfad&labelColor=%23ffffff">
+        <img alt="Total commits" src="https://img.shields.io/github/commit-activity/t/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%23e8dfad&labelColor=%23444444">
+    </picture>
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/stars/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%23938af8&labelColor=%23444444">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/stars/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%23938af8&labelColor=%23ffffff">
+        <img alt="Stars" src="https://img.shields.io/github/stars/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%23938af8&labelColor=%23444444">
+    </picture>
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/issues-search?query=repo%3AT-b-t-nchos%2FAquavium.nvim%20type:issue&style=flat&logo=GitHub&label=Total%20Issues&color=%23eeb6c7&labelColor=%23444444">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/issues-search?query=repo%3AT-b-t-nchos%2FAquavium.nvim%20type:issue&style=flat&logo=GitHub&label=Total%20Issues&color=%23eeb6c7&labelColor=%23ffffff">
+        <img alt="Total Issues" src="https://img.shields.io/github/issues-search?query=repo%3AT-b-t-nchos%2FAquavium.nvim%20type:issue&style=flat&logo=GitHub&label=Total%20Issues&color=%23eeb6c7&labelColor=%23444444">
+    </picture>
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/issues-search?query=repo%3AT-b-t-nchos%2FAquavium.nvim%20type:pr&style=flat&logo=GitHub&label=Total%20Issues&color=%23da9197&labelColor=%23444444">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/issues-search?query=repo%3AT-b-t-nchos%2FAquavium.nvim%20type:pr&style=flat&logo=GitHub&label=Total%20Issues&color=%23da9197&labelColor=%23ffffff">
+        <img alt="Total Pull Requests" src="https://img.shields.io/github/issues-search?query=repo%3AT-b-t-nchos%2FAquavium.nvim%20type:pr&style=flat&logo=GitHub&label=Total%20Issues&color=%23938af8&labelColor=%23444444">
+    </picture>
+</div>
+
+<hr>
+
 ## ✨ 概要 - Overview -
 <sub>"Aquavium" is designed for use with a transparent terminal background</sub>  
 "Aquavium"はターミナルの背景を透過させることを前提とした、  
