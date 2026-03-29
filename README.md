@@ -49,7 +49,7 @@
     <br><br>
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/last-commit/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%234fbee3&labelColor=%23444444">
-        <sourc media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/last-commit/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%234fbee3&labelColor=%23ffffff">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/last-commit/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%234fbee3&labelColor=%23ffffff">
         <img alt="Last commit" src="https://img.shields.io/github/last-commit/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%234fbee3&labelColor=%23444444">
     </picture>
     <picture>
