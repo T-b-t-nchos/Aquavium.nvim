@@ -43,7 +43,7 @@
         <picture>
             <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/NOTICE%20-%2363deff?style=flat&label=Notice&labelColor=%23444444&link=https%3A%2F%2Fneovim.io%2F">
             <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/NOTICE%20-%2363deff?style=flat&label=Notice&labelColor=%23ffffff&link=https%3A%2F%2Fneovim.io%2F">
-            <img alt="Notice" src="https://img.shields.io/badge/NOTICE%20Notice%20-%2363deff?style=flat&label=Notice&labelColor=%23444444&link=https%3A%2F%2Fneovim.io%2F">
+            <img alt="Notice" src="https://img.shields.io/badge/NOTICE%20-%2363deff?style=flat&label=Notice&labelColor=%23444444&link=https%3A%2F%2Fneovim.io%2F">
         </picture>
     </a>
     <br><br>
