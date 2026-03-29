@@ -49,27 +49,27 @@
     <br><br>
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/last-commit/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%234fbee3&labelColor=%23444444">
-        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/last-commit/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%234fbee3&labelColor=%23ffffff">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/last-commit/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%234fbee3&labelColor=%23ffffff&logoColor=%23111">
         <img alt="Last commit" src="https://img.shields.io/github/last-commit/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%234fbee3&labelColor=%23444444">
     </picture>
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/commit-activity/t/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%23e8dfad&labelColor=%23444444">
-        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/commit-activity/t/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%23e8dfad&labelColor=%23ffffff">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/commit-activity/t/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%23e8dfad&labelColor=%23ffffff&logoColor=%23111">
         <img alt="Total commits" src="https://img.shields.io/github/commit-activity/t/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%23e8dfad&labelColor=%23444444">
     </picture>
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/stars/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%23938af8&labelColor=%23444444">
-        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/stars/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%23938af8&labelColor=%23ffffff">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/stars/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%23938af8&labelColor=%23ffffff&logoColor=%23111">
         <img alt="Stars" src="https://img.shields.io/github/stars/T-b-t-nchos/Aquavium.nvim?display_timestamp=author&style=flat&logo=Github&color=%23938af8&labelColor=%23444444">
     </picture>
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/issues-search?query=repo%3AT-b-t-nchos%2FAquavium.nvim%20type:issue&style=flat&logo=GitHub&label=Total%20Issues&color=%23eeb6c7&labelColor=%23444444">
-        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/issues-search?query=repo%3AT-b-t-nchos%2FAquavium.nvim%20type:issue&style=flat&logo=GitHub&label=Total%20Issues&color=%23eeb6c7&labelColor=%23ffffff">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/issues-search?query=repo%3AT-b-t-nchos%2FAquavium.nvim%20type:issue&style=flat&logo=GitHub&label=Total%20Issues&color=%23eeb6c7&labelColor=%23ffffff&logoColor=%23111">
         <img alt="Total Issues" src="https://img.shields.io/github/issues-search?query=repo%3AT-b-t-nchos%2FAquavium.nvim%20type:issue&style=flat&logo=GitHub&label=Total%20Issues&color=%23eeb6c7&labelColor=%23444444">
     </picture>
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/issues-search?query=repo%3AT-b-t-nchos%2FAquavium.nvim%20type:pr&style=flat&logo=GitHub&label=Total%20Issues&color=%23da9197&labelColor=%23444444">
-        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/issues-search?query=repo%3AT-b-t-nchos%2FAquavium.nvim%20type:pr&style=flat&logo=GitHub&label=Total%20Issues&color=%23da9197&labelColor=%23ffffff">
+        <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/github/issues-search?query=repo%3AT-b-t-nchos%2FAquavium.nvim%20type:pr&style=flat&logo=GitHub&label=Total%20Issues&color=%23da9197&labelColor=%23ffffff&logoColor=%23111">
         <img alt="Total Pull Requests" src="https://img.shields.io/github/issues-search?query=repo%3AT-b-t-nchos%2FAquavium.nvim%20type:pr&style=flat&logo=GitHub&label=Total%20Issues&color=%23938af8&labelColor=%23444444">
     </picture>
 </div>
