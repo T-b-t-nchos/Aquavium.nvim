@@ -1,0 +1,26 @@
+name: 📜 | Check with Stylua
+
+permissions:
+    contents: read
+    pull-requests: write
+
+on:
+    pull_request:
+        paths:
+            - "**.lua"
+
+jobs:
+    spelling:
+        name: Spell Check with Typos
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: JohnnyMorganz/stylua-action@v4
+              with:
+                token: ${{ secrets.GITHUB_TOKEN }}
+                version: latest
+                args: .
+            - uses: reviewdog/action-suggester@v1
+              with:
+                tool_name: stylua
+                fail_on_error: true
