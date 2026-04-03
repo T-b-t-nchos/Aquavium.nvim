@@ -11,7 +11,7 @@ on:
         #     - "**.lua"
 
 jobs:
-    spelling:
+    styling:
         name: Lua Style Check with Stylua
         runs-on: ubuntu-latest
         steps:
