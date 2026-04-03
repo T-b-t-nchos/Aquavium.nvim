@@ -7,8 +7,8 @@ permissions:
 on:
     workflow_dispatch:
     pull_request:
-        paths:
-            - "**.lua"
+        # paths:
+        #     - "**.lua"
 
 jobs:
     spelling:
