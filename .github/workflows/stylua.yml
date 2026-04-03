@@ -12,7 +12,7 @@ on:
 
 jobs:
     spelling:
-        name: Spell Check with Typos
+        name: Lua Style Check with Stylua
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
