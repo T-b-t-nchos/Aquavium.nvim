@@ -5,6 +5,7 @@ permissions:
     pull-requests: write
 
 on:
+    workflow_dispatch:
     pull_request:
         paths:
             - "**.lua"
