@@ -23,7 +23,8 @@ jobs:
                 token: ${{ secrets.GITHUB_TOKEN }}
                 version: latest
                 args: .
-            - uses: reviewdog/action-suggester@v1
+            - name: Reviewdog suggester
+              uses: reviewdog/action-suggester@v1
               with:
                 tool_name: stylua
                 fail_on_error: true
