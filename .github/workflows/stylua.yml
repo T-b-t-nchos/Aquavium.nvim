@@ -1,0 +1,28 @@
+name: 📜 | Check with Stylua
+
+permissions:
+    contents: read
+    pull-requests: write
+
+on:
+    workflow_dispatch:
+    pull_request:
+        # paths:
+        #     - "**.lua"
+
+jobs:
+    styling:
+        name: Lua Style Check with Stylua
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: JohnnyMorganz/stylua-action@v4
+              with:
+                token: ${{ secrets.GITHUB_TOKEN }}
+                version: 2.4.0
+                args: .
+            - name: Reviewdog suggester
+              uses: reviewdog/action-suggester@v1
+              with:
+                tool_name: stylua
+                fail_on_error: true
