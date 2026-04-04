@@ -2,6 +2,8 @@ name: 📜 | Check with Stylua
 
 permissions:
     contents: read
+    checks: write
+    issues: write
     pull-requests: write
 
 on:
