@@ -19,7 +19,7 @@ jobs:
             - uses: JohnnyMorganz/stylua-action@v4
               with:
                 token: ${{ secrets.GITHUB_TOKEN }}
-                version: latest
+                version: 4.1.0
                 args: .
             - name: Reviewdog suggester
               uses: reviewdog/action-suggester@v1
