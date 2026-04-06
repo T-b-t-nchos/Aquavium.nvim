@@ -1,7 +1,7 @@
 local utils = require("Aquavium.utils")
 local M = {}
 
-function M.apply(c, o)
+function M.apply(c, opts)
     local hl = {
         BufferLineFill = { bg = c.bg1 },
         BufferLineBackground = { fg = c.gray, bg = c.bg1 },
@@ -14,11 +14,11 @@ function M.apply(c, o)
         BufferLineCloseButton = { bg = c.bg1 },
         BufferLineCloseButtonVisible = { bg = c.bg1 },
 
-        BufferLineIndicatorSelected = { fg = c.cyan, bg = c.bg1, bold = o.bold },
-        BufferLineBufferSelected = { fg = c.fg, bg = c.bg1, bold = o.bold },
+        BufferLineIndicatorSelected = { fg = c.cyan, bg = c.bg1, bold = opts.bold },
+        BufferLineBufferSelected = { fg = c.fg, bg = c.bg1, bold = opts.bold },
     }
 
-    hl = utils.merge_highlights(hl, o.custom_highlights, c, o)
+    hl = utils.merge_highlights(hl, opts.custom_highlights, c, opts)
 
     utils.apply_hl(hl)
 end

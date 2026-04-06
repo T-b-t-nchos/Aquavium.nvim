@@ -1,7 +1,7 @@
 local utils = require("Aquavium.utils")
 local M = {}
 
-function M.apply(c, o)
+function M.apply(c, opts)
     local hl = {
         LazyReasonRuntime = { fg = c.blue },
         LazyReasonPlugin = { fg = c.lightblue },
@@ -13,11 +13,11 @@ function M.apply(c, o)
         LazyReasonCmd = { fg = c.pink },
         LazyReasonImport = { fg = c.yellow },
         LazyReasonRequire = { fg = c.yellow },
-        Bold = { bold = o.bold },
-        Italic = { italic = o.italic },
+        Bold = { bold = opts.bold },
+        Italic = { italic = opts.italic },
     }
 
-    hl = utils.merge_highlights(hl, o.custom_highlights, c, o)
+    hl = utils.merge_highlights(hl, opts.custom_highlights, c, opts)
 
     utils.apply_hl(hl)
 end

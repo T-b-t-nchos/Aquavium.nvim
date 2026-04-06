@@ -1,7 +1,7 @@
 local utils = require("Aquavium.utils")
 local M = {}
 
-function M.apply(c, o)
+function M.apply(c, opts)
     local hl = {
         NotifyERRORBody = { fg = c.rose },
         NotifyERRORBorder = { link = "NotifyERRORBody" },
@@ -29,7 +29,7 @@ function M.apply(c, o)
         NotifyTRACEIcon = { link = "NotifyTRACEBody" },
     }
 
-    hl = utils.merge_highlights(hl, o.custom_highlights, c, o)
+    hl = utils.merge_highlights(hl, opts.custom_highlights, c, opts)
 
     utils.apply_hl(hl)
 end
