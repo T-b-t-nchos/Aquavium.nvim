@@ -5,7 +5,8 @@ local M = {}
 local default_options = {
     bold = true,
     italic = true,
-    transparent = true
+    transparent = true,
+    custom_highlights = nil,
 }
 
 M.options = vim.deepcopy(default_options)

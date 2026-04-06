@@ -1,7 +1,7 @@
 local utils = require("Aquavium.utils")
 local M = {}
 
-function M.apply(c)
+function M.apply(c, o)
     local hl = {
         MarkviewHeading1 = { fg = c.lightblue, bold = true },
         MarkviewHeading2 = { fg = c.yellow, bold = true },
@@ -21,6 +21,8 @@ function M.apply(c)
         MarkviewCheckbox = { fg = c.lightblue, bold = true },
 
     }
+
+    hl = utils.merge_highlights(hl, o.custom_highlights, c, o)
 
     utils.apply_hl(hl)
 end

@@ -17,6 +17,8 @@ function M.apply(c, o)
         Italic = { italic = o.italic },
     }
 
+    hl = utils.merge_highlights(hl, o.custom_highlights, c, o)
+
     utils.apply_hl(hl)
 end
 
