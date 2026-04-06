@@ -16,8 +16,11 @@ function M.merge_highlights(base, custom, colors, opts)
     end
 
     if type(custom) == "function" then
-        local user = custom(colors, opts)
-        if user then
+        local ok, user = pcall(custom, colors, opts)
+        if not ok then
+            return base
+        end
+        if type(user) == "table" then
             return vim.tbl_deep_extend("force", base, user)
         end
         return base
