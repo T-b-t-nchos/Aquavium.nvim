@@ -6,7 +6,7 @@ function M.apply(c, opts)
         TelescopeBorder = { fg = c.gray }
     }
 
-    hl = utils.merge_highlights(hl, opts.custom_highlights, c, o)
+    hl = utils.merge_highlights(hl, opts.custom_highlights, c, opts)
 
     utils.apply_hl(hl)
 end
