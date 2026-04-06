@@ -2,9 +2,33 @@ local M = {}
 
 function M.apply_hl(hl)
     for group, opts in pairs(hl) do
-        vim.api.nvim_set_hl(0, group, opts)
+        if opts == false then
+            vim.api.nvim_set_hl(0, group, {})
+        else
+            vim.api.nvim_set_hl(0, group, opts)
+        end
     end
 end
 
-return M
+function M.merge_highlights(base, custom, colors, opts)
+    if not custom then
+        return base
+    end
 
+    if type(custom) == "function" then
+        local ok, user = pcall(custom, colors, opts)
+        if not ok then
+            return base
+        end
+        if type(user) == "table" then
+            return vim.tbl_deep_extend("force", base, user)
+        end
+        return base
+    elseif type(custom) == "table" then
+        return vim.tbl_deep_extend("force", base, custom)
+    end
+
+    return base
+end
+
+return M

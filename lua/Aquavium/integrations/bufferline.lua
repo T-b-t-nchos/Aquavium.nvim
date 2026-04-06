@@ -18,6 +18,8 @@ function M.apply(c, opts)
         BufferLineBufferSelected = { fg = c.fg, bg = c.bg1, bold = opts.bold },
     }
 
+    hl = utils.merge_highlights(hl, opts.custom_highlights, c, opts)
+
     utils.apply_hl(hl)
 end
 

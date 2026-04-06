@@ -140,6 +140,12 @@ config.window_background_opacity = 0.7
             -- bold = false,
             -- italic = false,
             -- transparent = false,
+            --
+            -- custom_highlights = function(c, opts)
+            --     return {
+            --         Comment = { fg = c.cyan, bold = opts.bold }
+            --     }
+            -- end,
         })
 
         vim.cmd("colorscheme Aquavium")
@@ -153,6 +159,14 @@ config.window_background_opacity = 0.7
     bold = true,        -- enable/disable to use bold-style
     italic = true,      -- enable/disable to use italic-style
     transparent = true, -- enable/disable transparent background
+
+    -- Add custom highlights
+    -- You can use the colors and options in the function.
+    -- Also, you can use the simpler table if you don't need the colors and options.
+    custom_highlights = function(c, opts)
+        return {
+        }            
+    end,
 }
 ```
 
