@@ -52,9 +52,7 @@ function M.apply(c, opts)
         ['@keyword.coroutine'] = {fg = c.orange},
     }
 
-
     hl = utils.merge_highlights(hl, opts.custom_highlights, c, opts)
-
 
     utils.apply_hl(hl)
 end

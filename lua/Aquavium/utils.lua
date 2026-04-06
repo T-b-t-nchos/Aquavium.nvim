@@ -29,4 +29,3 @@ function M.merge_highlights(base, custom, colors, opts)
 end
 
 return M
-

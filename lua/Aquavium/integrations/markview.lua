@@ -19,7 +19,6 @@ function M.apply(c, opts)
         MarkviewLink = { fg = c.lightblue, underline = true },
         MarkviewList = { fg = c.yellow },
         MarkviewCheckbox = { fg = c.lightblue, bold = true },
-
     }
 
     hl = utils.merge_highlights(hl, opts.custom_highlights, c, opts)
