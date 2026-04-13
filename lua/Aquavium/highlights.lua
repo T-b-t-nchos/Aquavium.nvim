@@ -3,8 +3,8 @@ local utils = require("Aquavium.utils")
 local M = {}
 
 --- Apply the theme highlights
---- @param c table: The color palette
---- @param opts table: Configuration options (italics, bold, etc.)
+---@param c table: The color palette
+---@param opts table: Configuration options (italics, bold, etc.)
 function M.apply(c, opts)
     -- Define the highlight groups
     local hl = {
