@@ -1,9 +1,23 @@
+-- Import utility functions for highlight management
 local utils = require("Aquavium.utils")
 local M = {}
 
+--- Apply the theme highlights
+--- @param c table: The color palette
+--- @param opts table: Configuration options (italics, bold, etc.)
 function M.apply(c, opts)
+    -- Define the highlight groups
     local hl = {
+        -- Editor basic UI
         Normal = { fg = c.fg, bg = c.bg1 },
+        NormalFloat = { fg = c.fg },
+        EndOfBuffer = { fg = c.blue },
+        LineNr = { fg = c.gray },
+        MatchParen = { bold = opts.bold },
+        ModeMsg = { fg = c.purple },
+        Directory = { fg = c.lightblue },
+
+        -- Standard syntax highlighting
         Comment = { fg = c.gray, italic = opts.italic },
         Keyword = { fg = c.yellow },
         Statement = { fg = c.orange },
@@ -13,15 +27,10 @@ function M.apply(c, opts)
         Number = { fg = c.pink },
         Float = { link = "Number" },
         Boolean = { fg = c.rose },
-        LineNr = { fg = c.gray },
         Function = { fg = c.cyan },
-        EndOfBuffer = { fg = c.blue },
 
-        MatchParen = { bold = opts.bold },
-
-        NormalFloat = { fg = c.fg },
-
-        WinBar   = { bg = c.bg1 },
+        -- Statusline, Tabline and Winbar
+        WinBar = { bg = c.bg1 },
         WinBarNC = { bg = c.bg1 },
         TabLine = { bg = c.bg1 },
         TabLineFill = { bg = c.bg1 },
@@ -29,33 +38,31 @@ function M.apply(c, opts)
         StatusLine = { fg = c.fg },
         StatusLineNC = { bg = c.bg1 },
 
-        ModeMsg = { fg = c.purple },
-
-        Directory = { fg = c.lightblue },
-
+        -- LSP Diagnostics
         DiagnosticVirtualTextError = { fg = c.rose },
         DiagnosticVirtualTextWarn = { fg = c.yellow },
         DiagnosticVirtualTextInfo = { fg = c.cyan },
 
+        -- Legacy Vim script syntax
         vimCommand = { fg = c.yellow },
         vimBang = { fg = c.lightblue },
         vimOper = { fg = c.purple },
         vimUsrCmd = { fg = c.cyan },
 
-        -- treesitter.nvim --
+        -- Tree-sitter specific highlights
         ['@operator'] = { fg = c.sky },
-
-        ['@keyword.conditional'] = {fg = c.orange},
-        ['@keyword.repeat'] = {fg = c.orange},
-        ['@keyword.return'] = {fg = c.orange},
-        ['@keyword.exception'] = {fg = c.orange},
-        ['@keyword.coroutine'] = {fg = c.orange},
+        ['@keyword.conditional'] = { fg = c.orange },
+        ['@keyword.repeat'] = { fg = c.orange },
+        ['@keyword.return'] = { fg = c.orange },
+        ['@keyword.exception'] = { fg = c.orange },
+        ['@keyword.coroutine'] = { fg = c.orange },
     }
 
+    -- Merge with user-defined custom highlights
     hl = utils.merge_highlights(hl, opts.custom_highlights, c, opts)
 
+    -- Apply all highlights to the system
     utils.apply_hl(hl)
 end
 
 return M
-
