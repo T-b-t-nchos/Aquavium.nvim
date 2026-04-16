@@ -198,4 +198,4 @@ config.window_background_opacity = 0.7
 
 ## 👥 貢献者 - Contributors -
 <sub>See here:</sub>  
-こちらをご覧ください:  **[🤝Contributors.md](./Contributors.md)**
+こちらをご覧ください:  **[🤝THANKS.md](./THANKS.md)**
