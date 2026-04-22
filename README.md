@@ -6,7 +6,7 @@
 <br>
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/ee89335e-a442-4a85-bfc0-fc77d9616816" alt="Preview" width="700"/>
+    <img src="./assets/socials/SocialPreview.png" alt="Preview" width="700"/>
 </div>
 
 <hr>
@@ -86,8 +86,8 @@
 
 |TermColor|dark-wallpaper|light-wallpaper|
 |---|---|---|
-|black|![win11,000000,70per,dark](./doc/images/win11-000000-70per-dark.png)|![win11,000000,70per,light](./doc/images/win11-000000-70per-light.png)|
-|blue|![win11,02083a,70per,dark](./doc/images/win11-02083a-70per-dark.png)|![win11,blue,70per,light](./doc/images/win11-02083a-70per-light.png)|
+|black|![win11,000000,70per,dark](./assets/screenshots/win11-000000-70per-dark.png)|![win11,000000,70per,light](./assets/screenshots/win11-000000-70per-light.png)|
+|blue|![win11,02083a,70per,dark](./assets/screenshots/win11-02083a-70per-dark.png)|![win11,blue,70per,light](./assets/screenshots/win11-02083a-70per-light.png)|
 
 ## 💼 依存関係 - Dependents -
 - [Neovim](https://github.com/neovim/neovim) 0.11+
