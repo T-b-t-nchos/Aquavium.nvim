@@ -120,8 +120,8 @@ end,
 </code></pre>
 </details>
 </details>
-<sub>For plugins not listed here, no specific configuration is required.</sub><br>
-記載のないプラグインについては、特別な設定は不要です。
+<sub>For plugins not listed in how to apply, no specific configuration is required.</sub><br>
+有効化の方法について記載のないプラグインについては、特別な設定は不要です。
 
 ## 🔧 インストール - Install -
 ### In terminal
