@@ -119,9 +119,9 @@
 end,
 </code></pre>
 </details>
+</details>
 <sub>For plugins not listed here, no specific configuration is required.</sub><br>
 記載のないプラグインについては、特別な設定は不要です。
-</details>
 
 ## 🔧 インストール - Install -
 ### In terminal
