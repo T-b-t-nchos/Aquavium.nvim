@@ -104,7 +104,7 @@
 - [nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context)
 
 <details>
-<summary>(Optional) 有効化の方法 / How to apply</summary>
+<summary>有効化の方法 / How to apply</summary>
 <details>
 <summary>nvim-cmp</summary>
 <pre lang="lua"><code>config = function()
