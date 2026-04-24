@@ -120,7 +120,7 @@ end,
 </code></pre>
 </details>
 </details>
-<sub>For plugins not listed in how to apply, no specific configuration is required.</sub><br>
+<sub>For plugins not listed in the "How to apply" section, no specific configuration is required.</sub><br>
 有効化の方法について記載のないプラグインについては、特別な設定は不要です。
 
 ## 🔧 インストール - Install -
