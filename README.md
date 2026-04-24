@@ -124,7 +124,12 @@ config.window_background_opacity = 0.7
 --config.window_decorations = 'INTEGRATED_BUTTONS'
 ```
 ### In Neovim
-#### Lazy.nvim
+#### **推奨設定/Recommended**
+```lua
+vim.opt.winborder = "rounded"
+```
+#### パッケージマネージャー/Package Manager
+##### Lazy.nvim
 ```lua
 {
     "T-b-t-nchos/Aquavium.nvim",
