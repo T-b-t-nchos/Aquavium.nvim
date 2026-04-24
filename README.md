@@ -107,7 +107,7 @@
 <summary>(Optional) 有効化の方法 / How to apply</summary>
 <details>
 <summary>nvim-cmp</summary>
-<pre><code language="lua">config = function()
+<pre lang="lua"><code>config = function()
     local cmp = require("cmp")
     cmp.setup({
         window = {
