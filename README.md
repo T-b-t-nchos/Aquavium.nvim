@@ -103,6 +103,26 @@
 - [nvim-notify](https://github.com/rcarriga/nvim-notify)
 - [nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context)
 
+<details>
+<summary>(Optional) 有効化の方法 / How to apply</summary>
+<details>
+<summary>nvim-cmp</summary>
+<pre><code language="lua">config = function()
+    local cmp = require("cmp")
+    cmp.setup({
+        window = {
+            completion = {
+                winhighlight = "Normal:CmpNormal,FloatBorder:CmpBorder,CursorLine:CmpMenuSel",
+            }
+        },
+    })
+end,
+</code></pre>
+</details>
+<sub>For plugins not listed here, no specific configuration is required.</sub><br>
+記載のないプラグインについては、特別な設定は不要です。
+</details>
+
 ## 🔧 インストール - Install -
 ### In terminal
 <sub>Please set opacity</sub>  
