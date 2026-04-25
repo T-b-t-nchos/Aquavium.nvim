@@ -89,7 +89,7 @@
 |black|![win11,000000,70per,dark](./assets/screenshots/win11-000000-70per-dark.png)|![win11,000000,70per,light](./assets/screenshots/win11-000000-70per-light.png)|
 |blue|![win11,02083a,70per,dark](./assets/screenshots/win11-02083a-70per-dark.png)|![win11,blue,70per,light](./assets/screenshots/win11-02083a-70per-light.png)|
 
-## 💼 依存関係 - Dependents -
+## 💼 依存関係 - Dependencies -
 - [Neovim](https://github.com/neovim/neovim) 0.11+
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) (Optional)
 
