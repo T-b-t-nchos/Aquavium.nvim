@@ -11,6 +11,7 @@ function M.apply(c, opts)
         -- Editor basic UI
         Normal = { fg = c.fg, bg = c.bg1 },
         NormalFloat = { fg = c.fg },
+        FloatBorder = { fg = c.gray },
         EndOfBuffer = { fg = c.blue },
         LineNr = { fg = c.gray },
         MatchParen = { bold = opts.bold },
