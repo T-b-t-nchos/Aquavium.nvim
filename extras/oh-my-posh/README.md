@@ -68,7 +68,7 @@ config.color_schemes = {
 
 </details>
 
-## 💼 依存関係 - Dependents -
+## 💼 依存関係 - Dependencies -
 - [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh)
 
 ## 🔧 インストール - Install -
