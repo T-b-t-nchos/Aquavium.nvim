@@ -1,0 +1,29 @@
+[Aquatermium]
+foreground = "#cdd5e5"
+background = "#000e1e"
+
+cursor_bg = "#eeeeee"
+cursor_fg = "none"
+cursor_border = "none"
+
+ansi = [
+    "#000e1e", # black
+    "#da9197", # red
+    "#73bf5e", # green
+    "#fdba8a", # yellow
+    "#004584", # blue
+    "#938af8", # magenta
+    "#699ee0", # cyan
+    "#cdd5e5", # white
+]
+
+brights = [
+    "#7b92ae", # bright black
+    "#ffa9a9", # bright red
+    "#90f276", # bright green
+    "#e8dfad", # bright yellow
+    "#4fbee3", # bright blue
+    "#eeb6c7", # bright magenta
+    "#63deff", # bright cyan
+    "#e4e9ff", # bright white
+]
