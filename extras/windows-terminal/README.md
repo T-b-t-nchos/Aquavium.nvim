@@ -8,7 +8,7 @@
 ![screenshot](../wezterm/screenshots/screenshot1.png)
 
 ## 💼 依存関係 - Dependencies -
-- [WezTerm](https:/wezterm.org/)
+- [Windows Terminal](https://github.com/microsoft/terminal)
 
 ## 🔧 インストール - Install -
 1. Windows Terminalを起動し、設定画面から`settings.json`を開きます。
