@@ -1,0 +1,30 @@
+{
+    "schemes":
+    [
+        {
+            "name": "Aquatermium",
+            "background": "#000e1e",
+            "foreground": "#cdd5e5",
+
+            "cursorColor": "#eeeeee",
+
+            "black": "#000e1e",
+            "red": "#da9197",
+            "green": "#73bf5e",
+            "yellow": "#fdba8a",
+            "blue": "#004584",
+            "purple": "#938af8",
+            "cyan": "#699ee0",
+            "white": "#cdd5e5",
+
+            "brightBlack": "#7b92ae",
+            "brightRed": "#ffa9a9",
+            "brightGreen": "#90f276",
+            "brightYellow": "#e8dfad",
+            "brightBlue": "#4fbee3",
+            "brightPurple": "#eeb6c7",
+            "brightCyan": "#63deff",
+            "brightWhite": "#e4e9ff"
+        }
+    ]
+}
