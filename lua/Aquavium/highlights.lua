@@ -10,8 +10,6 @@ function M.apply(c, opts)
     local hl = {
         -- Editor basic UI
         Normal = { fg = c.fg, bg = c.bg1 },
-        NormalFloat = { fg = c.fg },
-        FloatBorder = { fg = c.gray },
         EndOfBuffer = { fg = c.blue },
         LineNr = { fg = c.gray },
         MatchParen = { bold = opts.bold },
@@ -38,6 +36,12 @@ function M.apply(c, opts)
         TabLineSel = { bg = c.bg1 },
         StatusLine = { fg = c.fg },
         StatusLineNC = { bg = c.bg1 },
+
+        -- Float window
+        NormalFloat = { fg = c.fg },
+        FloatBorder= { fg = c.gray },
+        Pmenu = { fg = c.fg, bg = c.bg1 },
+        PmenuSel = { fg = vim.api.nvim_get_hl(0, { name = "Special" }).fg, bold = opts.bold },
 
         -- LSP Diagnostics
         DiagnosticVirtualTextError = { fg = c.rose },
