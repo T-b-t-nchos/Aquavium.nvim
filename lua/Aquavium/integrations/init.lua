@@ -1,6 +1,7 @@
 local M = {}
 
 local modules = {
+    "blink-cmp",    -- blink.cmp
     "bufferline",
     "dashboard",
     "lazy-nvim",
