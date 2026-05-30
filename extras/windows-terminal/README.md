@@ -15,6 +15,7 @@
 2. `schemes`配列に、`scheme.json`内の内容を追加します。
 3. 配色設定を`Aquatermium`に変更します。
 <br>
+<br>
 
 1. Open Windows Terminal and open `settings.json`.
 2. Add the contents of `scheme.json` to the `schemes` array.
