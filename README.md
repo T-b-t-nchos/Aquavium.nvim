@@ -94,6 +94,7 @@
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) (Optional)
 
 ## 🧩 対応しているプラグイン - Supported plugins -
+- [blink.cmp](https://github.com/saghen/blink.cmp)
 - [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 - [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim/)
 - [lazy.nvim](https://github.com/folke/lazy.nvim)
