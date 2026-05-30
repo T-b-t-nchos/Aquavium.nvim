@@ -6,3 +6,5 @@ config.color_scheme_dirs = {
 }
 
 config.color_scheme = "Aquatermium"
+
+return config
