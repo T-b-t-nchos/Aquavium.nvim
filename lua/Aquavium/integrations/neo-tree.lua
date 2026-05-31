@@ -19,4 +19,3 @@ function M.apply(c, opts)
 end
 
 return M
-
