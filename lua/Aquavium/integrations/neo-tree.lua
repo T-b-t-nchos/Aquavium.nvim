@@ -3,11 +3,16 @@ local M = {}
 
 function M.apply(c, opts)
     local hl = {
+        -- Basic
         NeoTreeRootName = { fg = c.cyan, bg = c.bg1, bold = opts.bold },
+
+        -- Git
         NeoTreeGitAdded = { fg = c.cyan, bg = c.bg1, bold = opts.bold },
         NeoTreeGitConflict = { fg = c.rose, bg = c.bg1, bold = opts.bold },
         NeoTreeGitModified = { fg = c.yellow, bg = c.bg1, bold = opts.bold },
         NeoTreeGitUntracked = { fg = c.rose, bg = c.bg1, bold = opts.bold },
+
+        -- Tabs
         NeoTreeTabInactive = { fg = c.gray, bg = c.bg1 },
         NeoTreeTabSeparatorActive = { fg = c.bg2, bg = c.bg1 },
         NeoTreeTabSeparatorInactive = { fg = c.bg2, bg = c.bg1 },
