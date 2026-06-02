@@ -6,6 +6,7 @@ local modules = {
     "dashboard",
     "lazy-nvim",
     "markview",
+    "neo-tree",
     "nvim-cmp",
     "nvim-notify",
     "telescope-nvim",
