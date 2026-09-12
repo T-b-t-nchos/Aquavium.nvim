@@ -205,8 +205,10 @@ vim.opt.winborder = "rounded"
 > 本カラースキームは[アクアリウムは踊らない二次創作ガイドライン](https://daidai7742.wixsite.com/aqua-dance/guideline)に準拠しています。
 
 ## 🙏 お願い - Request to you -
-> <sub>This is my first time developing a color scheme. So, there may be some issues.</sub>  
-> このカラースキームは、私の初めてのカラースキーム開発です。そのため、不具合などがある可能性があります。  
+> <sub>This is my first time developing a color scheme. </sub>  
+> このカラースキームは、私の初めてのカラースキーム開発です。  
+> <sub>So, there may be some issues.</sub>  
+> そのため、不具合などがある可能性があります。  
 > <sub>I'd love to take a look at your GitHub issue or PR if you find any issues.</sub>  
 > 不具合などを見つけた場合は、Issue/PRの作成を、ぜひお願い致します。
 
