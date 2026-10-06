@@ -343,24 +343,5 @@ return config
 $ohMyPoshTheme = Join-Path $HOME ".config\ohmyposh\theme\Aquaposh.omp.json"
 $ohMyPoshCache = Join-Path $HOME ".cache\oh-my-posh\init.ps1"
 
-if (
-    (Test-Path -LiteralPath $ohMyPoshTheme) -and
-    (
-        -not (Test-Path -LiteralPath $ohMyPoshCache) -or
-        (Get-Item -LiteralPath $ohMyPoshTheme).LastWriteTimeUtc -gt
-        (Get-Item -LiteralPath $ohMyPoshCache).LastWriteTimeUtc
-    )
-) {
-    $cacheDirectory = Split-Path $ohMyPoshCache -Parent
-
-    if (-not (Test-Path -LiteralPath $cacheDirectory)) {
-        New-Item -ItemType Directory -Path $cacheDirectory -Force | Out-Null
-    }
-
-    oh-my-posh init pwsh --config $ohMyPoshTheme | Set-Content -LiteralPath $ohMyPoshCache -Encoding utf8
-}
-
-if (Test-Path -LiteralPath $ohMyPoshCache) {
-    . $ohMyPoshCache
-}
+oh-my-posh init pwsh --config $ohMyPoshTheme | Set-Content -LiteralPath $ohMyPoshCache -Encoding utf8
 ```
