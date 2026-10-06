@@ -13,7 +13,7 @@ Issue #33 にて質問があったため、参考用に公開します。
 ### README.md
 #### Black
 ##### WezTerm
-```yml
+```lua
 local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
@@ -121,7 +121,7 @@ return config
 
 #### Blue
 ##### WezTerm
-```yml
+```lua
 local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
@@ -229,7 +229,7 @@ return config
 
 ### extras/wezterm/README.md
 ##### WezTerm
-```yml
+```lua
 local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
