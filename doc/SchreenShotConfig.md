@@ -278,7 +278,7 @@ config.animation_fps = 120
 
 
 config.window_background_gradient =
-{colors = {'#00e1e'}}
+{colors = {'#000e1e'}}
 
 config.window_frame = {
     inactive_titlebar_bg = 'none',
