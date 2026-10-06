@@ -4,8 +4,7 @@
 Issue #33 にて質問があったため、参考用に公開します。  
 
 > [!IMPORTANT]
-> <sub>Some settings may use a different syntax</sub>  
-> <sub>from the ones shown in the screenshots.</sub>  
+> <sub>Some settings may use a different syntax from the ones shown in the screenshots.</sub>  
 > 一部の設定は、スクリーンショットに表示されているものと構文が異なる場合があります。  
 > <sub>The appearance is identical.</sub>  
 > 外観は全く同じです。 
