@@ -1,0 +1,69 @@
+@layer base, utils, components, theme;
+
+@import "@webtui/css";
+@import '@webtui/plugin-nf';
+
+
+@layer base {
+    :root {
+        --font-family: /* fonts */, Menlo, Monaco, monospace, "Symbols Nerd Font";
+
+        --aquavium10: #000e1e; /*#000e1e*/
+        --aquavium10-rgb: 0 14 30; /*#000e1e*/
+        --aquavium11: #cdd5e5; /*#cdd5e5*/
+        --aquavium12: #7b92ae; /*#7b92ae*/
+        --aquavium13: #004584; /*#004584*/
+        --aquavium14: #63deff; /*#63deff*/
+
+        --aquavium20: #4fbee3; /*#4fbee3*/
+        --aquavium21: #e8dfad; /*#e8dfad*/
+        --aquavium22: #938af8; /*#938af8*/
+        --aquavium23: #eeb6c7; /*#eeb6c7*/
+        --aquavium24: #da9197; /*#da9197*/
+
+        --aquavium30: #fdba8a; /*#fdba8a*/
+        --aquavium31: #699ee0; /*#699ee0*/
+
+        /* Opacity */
+        --aquaviumOpacity: 55%;
+
+        /* Background */
+        --background0: rgb(
+        var(--aquavium10-rgb) / var(--aquaviumOpacity)
+        );
+        --background1: var(--aquavium10);
+        --background2: var(--aquavium13);
+        --background3: var(--aquavium12);
+
+        --foreground0: var(--aquavium11);
+        --foreground1: var(--aquavium12);
+
+    }
+}
+
+@layer theme {
+    h1 { color: var(--aquavium14); }
+    h2 { color: var(--aquavium20); }
+    h3 { color: var(--aquavium21); }
+    h4 { color: var(--aquavium22); }
+    h5 { color: var(--aquavium23); }
+    h6 { color: var(--aquavium24); }
+
+    p { color: var(--foreground0); }
+
+    a { color: var(--aquavium31); transition: color 0.1s ease; }
+    a:hover { color: var(--aquavium30); }
+
+    :root {
+        --list-marker-color: var(--aquavium13);
+
+        --preview-background-color: var(--aquavium10);
+
+        --box-border-color: var(--foreground1);
+        --table-border-color: var(--foreground1);
+        --separator-color: var(--foreground1);
+
+
+    }
+}
+
