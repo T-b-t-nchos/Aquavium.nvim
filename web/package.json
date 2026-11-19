@@ -1,0 +1,18 @@
+{
+  "name": "aquavium-web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/generate-sitemap.mjs",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.3.6"
+  },
+  "dependencies": {
+    "@webtui/css": "^0.1.10",
+    "@webtui/plugin-nf": "^0.1.2"
+  }
+}

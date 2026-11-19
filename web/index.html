@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en" data-webtui-theme="aquavium">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="color-scheme" content="dark">
+        <title>Aquavium</title>
+
+        <link rel="canonical" href="https://aquavium.nchos.net/">
+
+        <meta name="description" content="Aquarium-themed color scheme, designed for use with a transparent terminal background.">
+        <meta name="robots" content="index, follow">
+        <meta name="keywords" content="Aquavium, Neovim, Color Scheme, Transparent Terminal Background, Aquarium Theme">
+        <meta name="author" content="T-b-t-nchos">
+        <meta name="theme-color" content="#63deff">
+
+        <!-- Open Graph Protocol -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Aquavium.nvim">
+        <meta property="og:description" content="Aquarium-themed color scheme, designed for use with a transparent terminal background.">
+        <meta property="og:url" content="https://aquavium.nchos.net/">
+        <meta property="og:site_name" content="Aquavium.nvim">
+
+        <!-- Twitter / X -->
+        <meta name="twitter:title" content="Auqavium.nvim">
+        <meta name="twitter:description" content="Aquarium-themed color scheme, designed for use with a transparent terminal background.">
+    </head>
+    <body>
+        <main>
+            <section class="hero">
+                <video class="hero-video" autoplay muted loop playsinline>
+                    <source src="/assets/z9QNDGwVTW4.mp4" type="video/mp4">
+                </video>
+
+                <div class="hero-overlay"></div>
+
+                <div class="ascii-logo">
+
+                    <pre><code>                                  _                              _
+     /\                          (_)                            (_)
+    /  \   __ _ _   _  __ ___   ___ _   _ _ __ ___    _ ____   ___ _ __ ___
+   / /\ \ / _` | | | |/ _` \ \ / / | | | | '_ ` _ \  | '_ \ \ / / | '_ ` _ \
+  / ____ \ (_| | |_| | (_| |\ V /| | |_| | | | | | |_| | | \ V /| | | | | | |
+ /_/    \_\__, |\__,_|\__,_| \_/ |_|\__,_|_| |_| |_(_)_| |_|\_/ |_|_| |_| |_|
+             | |
+             |_|                                                             </code></pre>
+
+                    <div class="hero-badges">
+                        <span is-="badge" class="badge-1">Neovim 0.11+</span>
+                        <span is-="badge" class="badge-2">MIT License</span>
+                        <span is-="badge" class="badge-3">Supported others</span>
+                    </div>
+                </div>
+            </section>
+            <section class="content">
+                <h1># Aquavium.nvim</h1>
+                <a href="https://github.com/T-b-t-nchos/Aquavium.nvim">https://github.com/T-b-t-nchos/Aquavium.nvim</a>
+
+                <article>
+                    <h2>## what is Aquavium?</h2>
+                    <p>
+                    Aquavium.nvim is designed for use with a transparent terminal background<br>
+                    and features an aquarium-themed color scheme.
+                    </p><br>
+                    <p>
+                    In addition to Neovim, we also provide color schemes for other software,<br>
+                    such as WezTerm(Aquatermium) and oh-my-posh(Aquaposh).
+                    </p>
+                </article>
+
+                <hr>
+
+                <article>
+                    <h2>## features</h2>
+                    <ul>
+                        <li>Neovim 0.11+ support</li>
+                        <li>Transparent terminal background support</li>
+                        <li>Aquarium-themed color scheme</li>
+                        <li>Support for other extra softwares. → <a href="https://github.com/T-b-t-nchos/Aquavium.nvim/tree/main/extras/">github.com/T-b-t-nchos/Aquavium.nvim/tree/main/extras/</a></li>
+                    </ul>
+                </article>
+
+                <hr>
+
+                <article>
+                    <h2>## installation</h2>
+                    <h3>### In terminal</h3>
+                    <p>Please set opacity</p>
+                    <br>
+
+                    <h3>### In Neovim</h3>
+                    <h4>#### (Recommended Config)</h4>
+                    <pre><code>vim.opt.winborder = "rounded"</code></pre>
+                    <br>
+
+                    <h4>#### Lazy.nvim</h3>
+                    <pre><code>
+{
+    "T-b-t-nchos/Aquavium.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+        local aquavium = require("Aquavium")
+
+        aquavium.setup({
+            -- your options here
+        })
+
+        vim.cmd("colorscheme Aquavium")
+    end,
+},
+                    </code></pre>
+                    <br>
+                    <p>For more information, please refer to the <a href="https://github.com/T-b-t-nchos/Aquavium.nvim/blob/main/README.md">README.md</a>.</p>
+                </article>
+
+                <article>
+                    <h2>## support</h2>
+                    <h3>### Neovim</h3>
+                    <p>Neovim 0.11+ is supported.</p>
+                    <p>In addition, we support the following plugins:</p>
+                    <ul>
+                        <li><a href="https://github.com/saghen/blink.cmp">blink.cmp</a></li>
+                        <li><a href="https://github.com/akinsho/bufferline.nvim">bufferline.nvim</a></li>
+                        <li><a href="https://github.com/nvimdev/dashboard-nvim/">dashboard-nvim</a></li>
+                        <li><a href="https://github.com/folke/lazy.nvim">lazy.nvim</a></li>
+                        <li><a href="https://github.com/nvim-lualine/lualine.nvim">lualine.nvim</a></li>
+                        <li><a href="https://github.com/OXY2DEV/markview.nvim">Markview.nvim</a></li>
+                        <li><a href="https://github.com/nvim-neo-tree/neo-tree.nvim">neo-tree.nvim</a></li>
+                        <li><a href="https://github.com/hrsh7th/nvim-cmp">nvim-cmp</a></li>
+                        <li><a href="https://github.com/rcarriga/nvim-notify">nvim-notify</a></li>
+                        <li><a href="https://github.com/nvim-treesitter/nvim-treesitter-context">nvim-treesitter-context</a></li>
+                    </ul>
+                    <br>
+
+                    <h3>### Terminal</h3>
+                    <ul>
+                        <li><a href="https://github.com/wezterm/wezterm">WezTerm</a></li>
+                        <li><a href="https://github.com/microsoft/terminal">Windows Terminal</a></li>
+                    </ul>
+                    <br>
+
+                    <h3>### Others</h3>
+                    <ul>
+                        <li><a href="https://github.com/jesseduffield/lazygit">lazygit</a></li>
+                        <li><a href="https://github.com/JanDeDobbeleer/oh-my-posh">oh-my-posh</a></li>
+                        <li><a href="https://github.com/sxyazi/yazi">yazi</a></li>
+                    </ul>
+                    <br>
+
+                    <p>Please check the <a href="https://github.com/T-b-t-nchos/Aquavium.nvim/blob/main/README.md">README.md</a> for the latest information.</p>
+                </article>
+
+                <article>
+                    <h2>## source of inspire</h2>
+                    <p>This color theme is inspired by <a href="https://daidai7742.wixsite.com/aqua-dance">The Aquarium does not dance</a>.</p>
+                    <p>For more details, please see <a href="https://github.com/T-b-t-nchos/Aquavium.nvim/blob/main/doc/TADND.md">/doc/TADND.md</a>.</p>
+                    <br>
+
+                    <blockquote>
+                        <p><strong>NOTE:</strong> This color scheme complies with <a href="https://daidai7742.wixsite.com/aqua-dance/guideline">The Aquarium does not dance, Secondary Creation Guideline</a>.</p>
+                    </blockquote>
+                </article>
+            </section>
+        </main>
+
+        <script type="module" src="/src/index.js"></script>
+    </body>
+</html>

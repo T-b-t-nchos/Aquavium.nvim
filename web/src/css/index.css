@@ -1,0 +1,166 @@
+@layer base, utils, components, theme, overrides;
+
+
+@font-face {
+    font-family: "Moralerspace Radon";
+    src: url("/fonts/MoralerspaceRadonHW-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Moralerspace Radon";
+    src: url("/fonts/MoralerspaceRadonHW-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Moralerspace Radon";
+    src: url("/fonts/MoralerspaceRadonHW-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Moralerspace Radon";
+    src: url("/fonts/MoralerspaceRadonHW-BoldItalic.woff2") format("woff2");
+    font-weight: 700;
+    font-style: italic;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    font-family: "Moralerspace Radon", Menlo, Monaco, monospace, "Symbols Nerd Font";
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 3vh);
+    height: calc(100dvh - 3vh);
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-video {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    z-index: 0;
+
+    opacity: 1;
+    animation: aquavium-video-fade-in 2.5s ease-out both;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+
+    background: var(--background0);
+    z-index: 1;
+}
+
+.ascii-logo {
+    position: relative;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+}
+
+.ascii-logo pre {
+    margin: 0;
+    padding: 0;
+
+    background: none;
+    color: var(--aquavium14);
+
+    white-space: pre;
+    text-align: left;
+    overflow-x: auto;
+}
+
+.ascii-logo code {
+    font-family: inherit;
+    font-weight: 700;
+}
+
+.hero-badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1ch;
+
+    margin-top: 2lh;
+}
+
+.ascii-description {
+    margin-top: 2lh;
+    padding: 0 1rem;
+
+    color: var(--foreground1);
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.6;
+}
+
+@layer overrides {
+    .hero-badges .badge-1 {
+        --badge-color: var(--aquavium20);
+    }
+
+    .hero-badges .badge-2 {
+        --badge-color: var(--aquavium21);
+    }
+
+    .hero-badges .badge-3 {
+        --badge-color: var(--aquavium22);
+    }
+}
+
+.content {
+    width: min(100% - 3rem, 900px);
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.content article {
+    margin: 2rem 0;
+}
+
+.content h2 {
+    font-weight: 700;
+}
+
+.content hr {
+    border: none;
+    margin: 2rem 0;
+}
+
+@keyframes aquavium-video-fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
