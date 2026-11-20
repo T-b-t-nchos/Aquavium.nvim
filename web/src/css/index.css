@@ -33,6 +33,14 @@
     font-display: optional
 }
 
+@font-face {
+    font-family: "Moralerspace Neon";
+    src: url("/fonts/MoralerspaceNeonHW-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
 html,
 body {
     margin: 0;
@@ -162,6 +170,10 @@ body {
 .content hr {
     border: none;
     margin: 2rem 0;
+}
+
+article pre {
+    font-family: "Moralerspace Neon", Menlo, Monaco, monospace, "Symbols Nerd Font";
 }
 
 footer p {
