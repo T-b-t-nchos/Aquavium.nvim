@@ -50,6 +50,10 @@ body {
     font-family: "Moralerspace Radon", Menlo, Monaco, monospace, "Symbols Nerd Font";
 }
 
+pre {
+    font-family: "Moralerspace Neon", Menlo, Monaco, monospace, "Symbols Nerd Font";
+}
+
 .hero {
     position: relative;
     width: 100%;
@@ -170,10 +174,6 @@ body {
 .content hr {
     border: none;
     margin: 2rem 0;
-}
-
-article pre {
-    font-family: "Moralerspace Neon", Menlo, Monaco, monospace, "Symbols Nerd Font";
 }
 
 footer p {
