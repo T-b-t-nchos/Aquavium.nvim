@@ -164,6 +164,13 @@ body {
     margin: 2rem 0;
 }
 
+footer p {
+    text-align: center;
+    color: var(--foreground1);
+    font-size: 0.9rem;
+    margin: 2rem;
+}
+
 @keyframes aquavium-video-fade-in {
     from {
         opacity: 0;
