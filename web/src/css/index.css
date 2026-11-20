@@ -95,6 +95,11 @@ body {
     white-space: pre;
     text-align: left;
     overflow-x: auto;
+
+    white-space: pre;
+
+    font-size: var(--ascii-font-size, 1rem);
+
 }
 
 .ascii-logo code {
