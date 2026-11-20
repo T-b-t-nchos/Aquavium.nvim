@@ -14,7 +14,7 @@
     src: url("/fonts/MoralerspaceRadonHW-Italic.woff2") format("woff2");
     font-weight: 400;
     font-style: italic;
-    font-display: swap
+    font-display: optional
 }
 
 @font-face {
@@ -30,7 +30,7 @@
     src: url("/fonts/MoralerspaceRadonHW-BoldItalic.woff2") format("woff2");
     font-weight: 700;
     font-style: italic;
-    font-display: swap
+    font-display: optional
 }
 
 html,
